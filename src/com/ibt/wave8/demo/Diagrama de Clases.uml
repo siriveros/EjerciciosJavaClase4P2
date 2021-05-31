@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="281.0" y="522.0">com.ibt.wave8.demo.entities.ISocorrista</node>
+    <node x="0.0" y="511.0">com.ibt.wave8.demo.entities.Auto</node>
+    <node x="411.72631578947374" y="637.0">com.ibt.wave8.demo.entities.SocorristaMoto</node>
+    <node x="453.0" y="511.0">com.ibt.wave8.demo.entities.Moto</node>
+    <node x="-65.22499999999997" y="231.0">com.ibt.wave8.demo.entities.Carrera</node>
+    <node x="142.55043859649123" y="637.0">com.ibt.wave8.demo.entities.SocorristaAuto</node>
+    <node x="483.50000000000006" y="0.0">com.ibt.wave8.demo.entities.Vehiculo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ibt.wave8.demo.entities.Carrera" target="com.ibt.wave8.demo.entities.Auto">
+      <point x="-121.5" y="-335.5" />
+      <point x="350.27500000000003" y="751.0" />
+      <point x="100.59868421052636" y="751.0" />
+      <point x="100.59868421052636" y="607.0" />
+      <point x="78.29999999999995" y="607.0" />
+      <point x="-52.200000000000045" y="38.0" />
+    </edge>
+    <edge source="com.ibt.wave8.demo.entities.Carrera" target="com.ibt.wave8.demo.entities.ISocorrista">
+      <point x="-13.5" y="-335.5" />
+      <point x="458.27500000000003" y="711.0" />
+      <point x="362.5" y="711.0" />
+      <point x="362.5" y="617.0" />
+      <point x="376.0" y="617.0" />
+      <point x="19.0" y="27.0" />
+    </edge>
+    <edge source="com.ibt.wave8.demo.entities.Carrera" target="com.ibt.wave8.demo.entities.Vehiculo">
+      <point x="121.5" y="-335.5" />
+      <point x="593.2750000000001" y="751.0" />
+      <point x="724.5" y="751.0" />
+      <point x="724.5" y="481.0" />
+      <point x="633.5" y="481.0" />
+      <point x="50.0" y="225.5" />
+    </edge>
+    <edge source="com.ibt.wave8.demo.entities.SocorristaMoto" target="com.ibt.wave8.demo.entities.Moto">
+      <point x="0.0" y="-27.0" />
+      <point x="499.22631578947374" y="617.0" />
+      <point x="479.1" y="617.0" />
+      <point x="-104.4" y="38.0" />
+    </edge>
+    <edge source="com.ibt.wave8.demo.entities.SocorristaAuto" target="com.ibt.wave8.demo.entities.ISocorrista">
+      <point x="57.33333333333343" y="-27.0" />
+      <point x="285.88377192982466" y="617.0" />
+      <point x="300.0" y="617.0" />
+      <point x="-57.0" y="27.0" />
+    </edge>
+    <edge source="com.ibt.wave8.demo.entities.Moto" target="com.ibt.wave8.demo.entities.Vehiculo">
+      <point x="-65.25" y="-38.0" />
+      <point x="518.25" y="491.0" />
+      <point x="566.8333333333334" y="491.0" />
+      <point x="-16.666666666666686" y="225.5" />
+    </edge>
+    <edge source="com.ibt.wave8.demo.entities.Carrera" target="com.ibt.wave8.demo.entities.SocorristaAuto">
+      <point x="-67.5" y="-335.5" />
+      <point x="404.27500000000003" y="731.0" />
+      <point x="228.55043859649123" y="731.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.ibt.wave8.demo.entities.Carrera" target="com.ibt.wave8.demo.entities.Moto">
+      <point x="94.5" y="-335.5" />
+      <point x="566.2750000000001" y="741.0" />
+      <point x="656.825" y="741.0" />
+      <point x="656.825" y="617.0" />
+      <point x="687.9" y="617.0" />
+      <point x="104.39999999999998" y="38.0" />
+    </edge>
+    <edge source="com.ibt.wave8.demo.entities.SocorristaAuto" target="com.ibt.wave8.demo.entities.Auto">
+      <point x="-57.333333333333314" y="-27.0" />
+      <point x="171.21710526315792" y="617.0" />
+      <point x="182.70000000000005" y="617.0" />
+      <point x="52.200000000000045" y="38.0" />
+    </edge>
+    <edge source="com.ibt.wave8.demo.entities.Carrera" target="com.ibt.wave8.demo.entities.SocorristaMoto">
+      <point x="13.5" y="-335.5" />
+      <point x="485.27500000000003" y="761.0" />
+      <point x="499.22631578947374" y="761.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.ibt.wave8.demo.entities.SocorristaMoto" target="com.ibt.wave8.demo.entities.ISocorrista">
+      <point x="-58.33333333333334" y="-27.0" />
+      <point x="440.89298245614043" y="617.0" />
+      <point x="414.0" y="617.0" />
+      <point x="57.0" y="27.0" />
+    </edge>
+    <edge source="com.ibt.wave8.demo.entities.Auto" target="com.ibt.wave8.demo.entities.Vehiculo">
+      <point x="-65.25" y="-38.0" />
+      <point x="65.25" y="471.0" />
+      <point x="500.16666666666674" y="471.0" />
+      <point x="-83.33333333333334" y="225.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="416.5" y="694.0" />
+  <SelectedNodes>
+    <node>com.ibt.wave8.demo.entities.Carrera</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

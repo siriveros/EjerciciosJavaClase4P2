@@ -134,9 +134,8 @@ public class Carrera {
     }
 
     private double calcularVelocidadMaxima(Vehiculo vehiculo) {
-        double temp = ((double)vehiculo.getVelocidad() * (vehiculo.getAceleracion() / 2)) /
-                (vehiculo.getAnguloGiro() * (vehiculo.getPeso() * vehiculo.getRuedas() * 100));
-        return temp;
+        return ((double)vehiculo.getVelocidad() * (vehiculo.getAceleracion() / 2)) /
+                (vehiculo.getAnguloGiro() * (vehiculo.getPeso() - vehiculo.getRuedas() * 100));
     }
 
     public void socorrerAuto(String patente) throws Exception {
